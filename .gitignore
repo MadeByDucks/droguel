@@ -1,0 +1,48 @@
+# ==== Repo root: D:\projects\droguel ====
+
+# Old/archived UE projects
+ArchiveUE/
+
+# ==== Unreal Engine: generated / build output (any project) ====
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# ==== IDE / Visual Studio ====
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.ipch
+*.pdb
+*.obj
+
+# ==== Claude Code local settings ====
+.claude/settings.local.json
+
+# ==== droguel58: base UE 5.8 Third Person template content ====
+# Only files changed or added relative to the template are tracked.
+# Template content that was modified must be added with `git add -f <file>`;
+# once tracked, further changes are picked up normally.
+droguel58/Content/Characters/
+droguel58/Content/Input/
+droguel58/Content/LevelPrototyping/
+droguel58/Content/ThirdPerson/
+droguel58/Content/Variant_Combat/
+droguel58/Content/Variant_Platforming/
+droguel58/Content/Variant_SideScrolling/
+droguel58/Content/__ExternalActors__/
+droguel58/Content/__ExternalObjects__/
+droguel58/Content/Collections/
+droguel58/Content/Developers/
